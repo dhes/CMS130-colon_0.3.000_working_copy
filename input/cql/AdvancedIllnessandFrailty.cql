@@ -4,7 +4,7 @@ using QICore version '6.0.0'
 
 include FHIRHelpers version '4.4.000' called FHIRHelpers
 include QICoreCommon version '4.0.000' called QICoreCommon
-include CumulativeMedicationDuration version '5.0.001' called CMD
+include CumulativeMedicationDuration version '5.0.000' called CMD
 include Status version '1.13.000' called Status 
 
 codesystem "LOINC": 'http://loinc.org'
@@ -21,7 +21,7 @@ code "Housing status": '71802-3' from "LOINC" display 'Housing status'
 code "Lives in a nursing home (finding)": '160734000' from "SNOMEDCT" display 'Lives in a nursing home (finding)'
 code "Medical equipment used": '98181-1' from "LOINC" display 'Medical equipment used'
 
-parameter "Measurement Period" Interval<DateTime> // [@2026-01-01T00:00:00.0, @2026-12-31T23:59:59.999]
+parameter "Measurement Period" Interval<DateTime> default Interval[@2026-01-01T00:00:00, @2026-12-31T23:59:59]
 
 context Patient
 

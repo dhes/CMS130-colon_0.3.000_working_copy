@@ -1,4 +1,4 @@
-library CumulativeMedicationDuration version '5.0.001'
+library CumulativeMedicationDuration version '5.0.000'
 
 using QICore version '6.0.0'
 
