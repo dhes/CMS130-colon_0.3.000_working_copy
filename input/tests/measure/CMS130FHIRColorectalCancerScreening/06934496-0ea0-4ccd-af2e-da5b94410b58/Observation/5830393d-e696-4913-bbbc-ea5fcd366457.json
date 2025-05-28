@@ -1,0 +1,36 @@
+{
+  "resourceType": "Observation",
+  "id": "5830393d-e696-4913-bbbc-ea5fcd366457",
+  "meta": {
+    "profile": [
+      "https://hl7.org/fhir/us/qicore/StructureDefinition/qicore-simple-observation"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "102492002",
+        "display": "Failure to maintain weight (finding)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/06934496-0ea0-4ccd-af2e-da5b94410b58"
+  },
+  "effectivePeriod": {
+    "start": "2026-01-01T00:00:00.000+00:00",
+    "end": "2026-12-31T00:00:00.000+00:00"
+  }
+}
